@@ -121,8 +121,6 @@ def insert_data(data):
                     print(card_count)
                     break
             card_count += 1
-            if card_count == 11:
-                break
         except Exception as e:
             print(f"Что-то пошло не так. Ошибка: {e}")
 
